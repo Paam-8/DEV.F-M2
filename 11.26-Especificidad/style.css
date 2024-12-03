@@ -1,0 +1,28 @@
+#unique-div{
+    color: crimson;
+    background-color: goldenrod;
+}
+
+div h1{
+    color: aquamarine;
+    background-color: teal;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.my-title{
+    color: chartreuse;
+}
+
+h1{
+    color: darkblue;
+}
+
+/**{
+    color: indianrd !important;
+    font-style: italic !important;
+}/*
+
+/* !important no se usa/*
