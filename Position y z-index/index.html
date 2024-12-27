@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Ejemplo básico de z-index:-->
+    <div>
+        <div class="box1">Caja 1</div>
+        <div class="box2">Caja 2</div>
+    </div>
+
+    <!--Menú flotante siempre visible-->
+    <div>
+        <div class="fixed-menu">
+            Menú siempre visible
+        </div>
+    </div>
+    <!--Crear header que siempre se verá incluso al desplazarse hacia abajo-->
+    <div>
+        <div class="sticky-header">
+            Encabezado Adhesivo
+        </div>
+    </div>
+    <!--Tarjeta emergente (Modal)-->
+    <!--Aparece en el centro de la pantalla, y se superpone al resto del contenido, simulando mensaje de "Aceptar términos"-->
+    <div>
+        <div class="modal">
+            Acepta nuestros términos y condiciones
+        </div>
+    </div>
+    <!--Caja sperpuesta al desplazar el contenido-->
+    <!--crea una caja con psition:sticky que se mantenga visible mientras se hace scroll y supérala sobre el contenido con un z-index adecuado-->
+    <div>
+        <div class="sticky-note">
+            Nota importante
+        </div>
+    </div>
+</body>
+</html>
