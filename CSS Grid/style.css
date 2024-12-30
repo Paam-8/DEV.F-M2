@@ -1,0 +1,50 @@
+/*Ejemplo sencillo con la sintaxis básica de
+Grid de una estructura con tres columnas:*/
+
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+}
+
+/*aplicamos display: grid al contenedor, lo cual indica que los elementos hijos estarán organizados
+dentro de una cuadrícula. Luego utilizamos grid-template-columns para definir tres columnas de igual
+tamaño (1fr indica una fracción del espacio disponible). El gap de 20 píxeles nos sirve para definir
+el espacio entre cada columna, lo cual ayuda a que todo se vea limpio y bien distribuido.*/
+
+/*Un ejemplo práctico para visualizarlo mejor:
+Supongamos que estamos creando una galería sencilla con algunas imágenes o servicios.Vamos a crear
+una estructura con cuatro elementos que se organizarán automáticamente en filas y columnas. Ver primero HTML*/
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.gallery-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/*Con este código, hemos creado una galería con dos columnas y tantas filas como necesitemos para acomodar los elementos.
+El repeat(2, 1fr) nos indica que queremos dos columnas de igual tamaño (1fr), y el gap ayuda a darles un poco de separación.
+Puedes copiar y pegar este código en tu editor para ver cómo se organizan automáticamente los elementos en la cuadrícula.*/
+
+/*--Como ejercicio, copia el código del ejemplo y pruébalo en tu propio proyecto. Luego, puedes experimentar haciendo algunos cambios:
+- Cambiar el Número de Columnas: Modificar repeat(2, 1fr) a repeat(3, 1fr) o repeat(4, 1fr) para ver cómo cambian la
+distribución de los elementos. 
+- Usar Diferentes Unidades para las Columnas: Cambiar 1fr por otras unidades como %, px, o combinarlas
+(grid-template-columns: 1fr 2fr 100px;) para ver cómo afecta el ancho de las columnas. 
+- Agregar grid-template-rows: Definir explícitamente la altura de cada fila (grid-template-rows: 150px auto;)
+para entender cómo el contenido se adapta a estas alturas. 
+- Agregar una Nueva Propiedad como justify-items o align-items: Usar justify-items: center;
+o align-items: center; para ver cómo los elementos dentro de cada celda se alinean. 
+- Cambiar el gap: Modificar el gap a valores más grandes (gap: 50px;) o a cero (gap: 0;) para observar
+cómo cambia el espaciado entre los elementos. 
+- Asignar Diferentes Áreas con grid-area: Nombrar cada área de la cuadrícula y reordenar elementos asignando
+posiciones específicas dentro de la cuadrícula usando grid-area. 
+- Cambiar el Número de Elementos: Agregar o eliminar elementos dentro de la gallery-container para ver cómo
+el diseño se adapta automáticamente a la cuadrícula definida.*/
