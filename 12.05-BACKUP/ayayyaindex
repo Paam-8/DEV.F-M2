@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox - The cheesiest site</title>
+</head>
+<body>
+    <header>
+        <div class="header-image-container">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-cheese-icon-download-in-svg-png-gif-file-formats--piece-milk-product-dairy-foods-pack-food-drink-icons-1534540.png?f=webp&w=256" alt="cheese-logo">
+        </div>
+        <form>
+            <input type="text" placeholder="Search for your favorite cheeses">
+            <button>Search</button>
+        </form>
+        <ul>
+            <li>Home</li>
+            <li>Cheeses</li>
+            <li>Help</li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="main-top-info-section">
+            <div class="main-top-info">
+                <h1>The all cheeses website</h1>
+            </div>
+        </section>
+
+        <section id="main-mid-cheese-type-section">
+                <!--Logos de menú de contenido-->
+        <div class="cheese-type-container">
+            <div class="cheese-type-card">
+                <div class="cheese-info-card">
+                    <h1>Fresh cheeses</h1>
+                    <div class="cheese-icon-container">
+                        <img src="https://static.thenounproject.com/png/1781853-200.png" alt="fresh-cheese-icon">
+                    </div>
+                </div>
+                <div class="cheese-image-container">
+                    <img src="https://goop-img.com/wp-content/uploads/2019/04/White-Cheese-p43.jpg" alt="fresh-cheese-image">
+                </div>
+            </div>
+            <div class="cheese-type-card">
+                <div class="cheese-info-card">
+                    <h1>Soft-ripened cheeses</h1>
+                    <div class="cheese-icon-container">
+                        <img src="https://static.thenounproject.com/png/1781853-200.png" alt="fresh-cheese-icon">
+                    </div>
+                </div>
+                <div class="cheese-image-container">
+                    <img src="https://goop-img.com/wp-content/uploads/2019/04/White-Cheese-p43.jpg" alt="fresh-cheese-image">
+                </div>
+            </div>
+            <div class="cheese-type-card">
+                <div class="cheese-info-card">
+                    <h1>Semi-soft cheeses</h1>
+                    <div class="cheese-icon-container">
+                        <img src="https://static.thenounproject.com/png/1781853-200.png" alt="fresh-cheese-icon">
+                    </div>
+                </div>
+                <div class="cheese-image-container">
+                    <img src="https://goop-img.com/wp-content/uploads/2019/04/White-Cheese-p43.jpg" alt="fresh-cheese-image">
+                </div>
+            </div>
+            <div class="cheese-type-card">
+                <div class="cheese-info-card">
+                    <h1>Semi-firm cheeses</h1>
+                    <div class="cheese-icon-container">
+                        <img src="https://static.thenounproject.com/png/1781853-200.png" alt="fresh-cheese-icon">
+                    </div>
+                </div>
+                <div class="cheese-image-container">
+                    <img src="https://goop-img.com/wp-content/uploads/2019/04/White-Cheese-p43.jpg" alt="fresh-cheese-image">
+                </div>
+            </div>
+            <div class="cheese-type-card">
+                <div class="cheese-info-card">
+                    <h1>Hard cheeses</h1>
+                    <div class="cheese-icon-container">
+                        <img src="https://static.thenounproject.com/png/1781853-200.png" alt="fresh-cheese-icon">
+                    </div>
+                </div>
+                <div class="cheese-image-container">
+                    <img src="https://goop-img.com/wp-content/uploads/2019/04/White-Cheese-p43.jpg" alt="fresh-cheese-image">
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="main-bottom-freshcheeses-section">
+
+        </section>
+
+        <section id="main-bottom-softripenedcheeses-section">
+
+        </section>
+
+        <section id="main-bottom-semisoftcheeses-section">
+
+        </section>
+
+        <section id="main-bottom-semifirmcheeses-section">
+
+        </section>
+
+        <section id="main-bottom-hardcheeses-section">
+
+        </section>
+
+        <section id="main-bottom-cheese-cards-section">
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Brie-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Brie cheese</h1>
+                        <p>Brie doesn’t make the US’s top 5 for sales, but is nonetheless very popular. Brie is soft and silky and comes in a round wheel with a light crust. It is generally eaten at room temperature with crackers or bread, and can almost be spread. It is great as a dessert by itself or in recipes like these Whipped Brie Stuffed Strawberries.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Cottage-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Cottage cheese</h1>
+                        <p>Cottage cheese is an American favorite made from cow’s milk. It is made by separating curds from the whey and is not pressed resulting in its lumpy creamy texture. It is extremely healthy with a 4 oz serving providing about 12 grams of protein and a variety of vitamins and minerals. It is, of course, great eaten right from the carton or with just about any fruit, but it is much more versatile than just that.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Mozzarella.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Mozzarella</h1>
+                        <p>Mozzarella is a pasta filata, or stretched curd cheese, made by soaking the curd in water until it is sufficiently elastic that the cheese can be kneaded and stretched to give it the chewy elastic texture we recognize as mozzarella. Mozzarella was invented in Italy in 1570, but is of course today made worldwide and is the #3 most produced cheese in the United States making up 9% of all production.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Emmental.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Emmental</h1>
+                        <p>This is a very old Swiss cheese from Bern Switzerland that dates back to the 13th Century. It is a lite yellow cheese with a mild yet savory taste. The curds are cooked before being pressed, and this process forms the bubbles that give emmental its distinct “Swiss cheese” holes.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Gouda.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Gouda</h1>
+                        <p>Gouda is one of the most popular cheeses in the Netherlands, named after the city of Gouda, where it is traditionally bought and sold. This is a semi-hard cheese made with cow’s milk and patiently aged. Gouda is mild and creamy when young and becomes increasingly sharp with age. Gouda is aged anywhere from a few weeks to 7 years depending upon the characteristics desired. The Dutch have had a lot of time to perfect this cheese as written records first mention it in the 12th Century.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Parmesan.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Parmesan</h1>
+                        <p>Parmesan is a hard Italian cheese developed in the 12th or 13th Century. It is normally grated and known for its strong aroma and sweet taste. Its most common American use is sprinkled over pasta, but it is much more versatile than just that. </p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo-container">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-cheese-icon-download-in-svg-png-gif-file-formats--piece-milk-product-dairy-foods-pack-food-drink-icons-1534540.png?f=webp&w=256" alt="cheese-logo">
+        </div>
+        <ul class="links-container">
+            <li>Help</li>
+            <li>About us</li>
+            <li>Terms & conditions</li>
+            <li>Privacy</li>
+        </ul>
+        <ul class="logos-container">
+            <a href="https://www.linkedin.com/in/adame-marin-pedro-alberto-69ab16310/" target="_blank"><li><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="linkedin-logo"></li></a>
+            <a href="https://github.com/Paam-8" target="_blank"><li><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo"></li></a>
+        </ul>
+    </footer>
+</body>
+</html>

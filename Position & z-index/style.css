@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: cadetblue;
+    height: 100vh;
+    width: 100%;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box{
+    background-color: blueviolet;
+    width: 10rem;
+    height: 10rem;
+}
+
+/*position: relative hace que se mantenga en el flujo el elemento,
+pero se puede mover a donde sea con respecto a su posición original*/
+
+/*position: absolute saca el elemento del flujo, y toma en cuenta
+como referencia un contenedor padre mayor al contenedor padre inicial
+ejemplo: se tiene un contenedor padre llamado <body>, y dentro hay
+otro contenedor padre llamado <div class="box-container">; al usar
+position: absolute a un elemento dentro del contenedor padre
+<div class="box-container">, se toma en cuenta el primer contenedor
+padre aún mayor, o sea, en este caso sería el contenedor <body>*/
+
+/*position: sticky es lo mismo que relative, siguiendo el flujo, y
+se le indica desde qué parte se estará "pegando" a la pantalla*/
+
+/*position: fixed es similar a absolute, sacando el elemento del
+flujo, y siempre estará visible en la pantalla*/
+.box:nth-child(30){
+    background-color: aqua;
+    color: white;
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+

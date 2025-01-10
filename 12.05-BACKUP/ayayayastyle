@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(123, 3, 35);
+}
+
+*{
+    font-family: "Geo", serif;
+    margin: 0;
+    padding: 0px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+/*estilos header*/
+
+header{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image-container{
+    width: 7rem;
+    background-color: aliceblue;
+    border-radius: 100%;
+    border: 1.5px solid rgb(5, 88, 34);
+}
+
+.header-image-container img{
+    width: 100%;
+}
+
+header form{
+    width: 35%;
+}
+
+header form input{
+    width: 60%;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    border: 1px solid;
+    border-radius: 100vw 0 0 100vw;
+    font-style: italic;
+}
+
+/*focus es una pseudoclase, es cuando tiene efecto al hacer click*/
+
+header form input:focus{
+    border: 1px solid color rgb(171, 0, 148);
+    outline: none;
+    font-weight: bold;
+}
+
+header form button{
+    border: 0.1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+    border-radius: 0 100vw 100vw 0;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header form button:hover{
+    border-color: white;
+    background-color: rgb(0, 71, 171);
+    color: aliceblue;
+}
+
+header ul{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+header ul li{
+    transition: 200ms;
+    font-style: italic;
+}
+
+header ul li:hover{
+    transform: scale(1.1);
+}
+
+.main-top-info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+/*Estilos tarjetas tipos de quesos*/
+
+.cheese-type-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3rem;
+    gap: 3rem;
+    /*borrarrrrrrrrrrrrrrrrr*/
+    border: 1px solid rgb(226, 20, 182);
+}
+
+.cheese-type-card{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.cheese-type-card:hover{
+    background-color: rgb(15, 15, 15);
+    transform: translateY(-5px);
+        /*Aquí se pone el comando de la página web para la sombra*/
+    -webkit-box-shadow: 28px 25px 0px -6px rgba(128,32,96,0.9);
+    -moz-box-shadow: 28px 25px 0px -6px rgba(128,32,96,0.9);
+    box-shadow: 28px 25px 0px -6px rgba(128,32,96,0.9);
+}
+
+.cheese-info-card{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    font-size: medium;
+    align-items: center;
+}
+
+.cheese-image-container{
+    width: 35%;
+}
+
+.cheese-image-container img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.cheese-icon-container{
+    width: 4.5rem;
+}
+
+.cheese-icon-container img{
+    width: 100%;
+    filter: invert(100);
+}
+
+/*Estilos tarjetas quesos*/
+
+.cards-container{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 33rem;
+    height: 35rem;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card-imgage-container{
+    width: 100%;
+}
+
+.card-image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card-info{
+    width: 100%;
+}
+
+.card-info h1{
+    font-style: italic;
+}
+
+.card-info p{
+    font-weight: 200;
+    text-align: justify;
+}
+
+.card button{
+    width: 6rem;
+    margin: 0.5rem;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 100vw;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+    align-self: center;
+}
+
+.card button:hover{
+    border: 1px solid rgba(245, 222, 179, 0);
+    background-color: rgb(0, 71, 171);
+    transform: scale(1.2);
+}
+
+/*Estilos del footer*/
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+}
+
+.footer-logo-container{
+    width: 5rem;
+    background-color: rgb(0, 71, 171);
+    border-radius: 100%;
+    border: 1.5px solid rgb(5, 88, 34);
+}
+
+.footer-logo-container img{
+    width: 100%;
+}
+
+.links-container{
+    display: flex;
+    font-weight: bold;
+    gap: 10rem;
+    padding: 0.5rem 0 0 0;
+}
+
+.links-container li:hover{
+    text-decoration: underline;
+    cursor: wait;
+}
+
+.logos-container{
+    display: flex;
+    gap: 3.5rem;
+    padding: 0.5rem 0 0 0;
+}
+
+.logos-container li{
+    width: 4rem;
+}
+
+.logos-container img{
+    filter: invert(100);
+    width: 100%;
+    transition: 200ms;
+}
+
+.logos-container img:hover{
+    transform: scale(1.1);
+}
+
