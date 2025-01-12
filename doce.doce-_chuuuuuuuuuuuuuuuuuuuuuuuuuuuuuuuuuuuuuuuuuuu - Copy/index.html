@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Position</title>
+</head>
+<body>
+
+<!--Sección header, el menú de la parte superior, la barra de navegación, y el logo de la página-->
+    <header>
+        <div class="header-image-container">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-cheese-icon-download-in-svg-png-gif-file-formats--piece-milk-product-dairy-foods-pack-food-drink-icons-1534540.png?f=webp&w=256" alt="cheese-logo">
+        </div>
+        <form>
+            <input type="text" placeholder="Search for a cheese">
+            <button>Search</button>
+        </form>
+        <ul>
+            <li>Home</li>
+            <li>Cheeses</li>
+            <li>Help</li>
+        </ul>
+        <div class="nav-icon-container">
+            <img src="https://cdn0.iconfinder.com/data/icons/website-set/177/text-512.png" alt="nav-icon">
+        </div>
+    </header>
+
+<!--Sección superior main donde se tiene un pequeño mensaje de la página-->
+    <main>
+        <section id="main-top-info-section">
+            <div class="main-top-info">
+                <h1>The cheesiest website</h1>
+            </div>
+        </section>
+
+<!--Sección nueva: Grid-->
+        <div class="cheese-origin-container">
+            <div class="bigger-card">
+                <h1>Choose the country origin of your favorite cheese</h1>
+                <div class="bigger-card-image-container">
+                    <img src="https://offloadmedia.feverup.com/secretbirmingham.com/wp-content/uploads/2020/10/16085046/interactive-cheese-map-taste-atlas.png" alt="world-icon">
+                </div>
+            </div>
+            <div class="smaller-card">
+                <div class="smaller-card-image-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5111/5111640.png" alt="country-flag">
+                </div>
+                <h2>Western Europe</h2>
+            </div>
+            <div class="smaller-card">
+                <div class="smaller-card-image-container">
+                    <img src="https://flagdom.com/flag-resources/flag-images/international/italy/italy-flag_525x350.png" alt="country-flag">
+                </div>
+                <h2>Southern Europe</h2>
+            </div>
+            <div class="smaller-card">
+                <div class="smaller-card-image-container">
+                    <img src="https://www.iconarchive.com/download/i109119/wikipedia/flags/DK-Denmark-Flag.1024.png" alt="country-flag">
+                </div>
+                <h2>Northern Europe</h2>
+            </div>
+            <div class="smaller-card">
+                <div class="smaller-card-image-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/555/555526.png" alt="country-flag">
+                </div>
+                <h2>North America</h2>
+            </div>
+        </div>
+
+<!--Sección donde se tienen el menú de las secciones de quesos con logos e íconos-->
+        <section id="main-mid-cheese-type-section">
+            <div class="cheese-type-container">
+                <div class="cheese-type-card">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#main-bottom-freshcheeses-section">
+                                    <div class="cheese-info-card">
+                                        <h1>Fresh cheeses</h1>
+                                        <div class="cheese-icon-container">
+                                            <img src="https://bluehill.coop/wp-content/uploads/2024/04/mozzarella-1024x1024.png" alt="fresh-cheese-icon">
+                                        </div>
+                                        <div class="cheese-image-container">
+                                            <img src="https://goop-img.com/wp-content/uploads/2019/04/White-Cheese-p43.jpg" alt="fresh-cheese-image">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cheese-type-card">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#main-bottom-softripenedcheeses-section">
+                                    <div class="cheese-info-card">
+                                        <h1>Soft-Ripened cheeses</h1>
+                                        <div class="cheese-icon-container">
+                                            <img src="https://bluehill.coop/wp-content/uploads/2024/04/Brie-1024x1024.png" alt="fresh-cheese-icon">
+                                        </div>
+                                        <div class="cheese-image-container">
+                                            <img src="https://gianacliscaldwell.com/wp-content/uploads/2011/09/bloomiessmall.jpg" alt="fresh-cheese-image">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cheese-type-card">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#main-bottom-semisoftcheeses-section">
+                                    <div class="cheese-info-card">
+                                        <h1>Semi-Soft cheeses</h1>
+                                        <div class="cheese-icon-container">
+                                            <img src="https://bluehill.coop/wp-content/uploads/2024/04/Monterey-Jack-1024x1024.png" alt="fresh-cheese-icon">
+                                        </div>
+                                        <div class="cheese-image-container">
+                                            <img src="https://thelaughingcow-sea.com/wp-content/uploads/2024/09/36329850_l_normal_none-1024x710.jpg" alt="fresh-cheese-image">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cheese-type-card">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#main-bottom-semifirmcheeses-section">
+                                    <div class="cheese-info-card">
+                                        <h1>Semi-Firm cheeses</h1>
+                                        <div class="cheese-icon-container">
+                                            <img src="https://freedesignfile.com/image/thumb/10117/slab-of-cheese-cartoon-clipart.png" alt="fresh-cheese-icon">
+                                        </div>
+                                        <div class="cheese-image-container">
+                                            <img src="https://media02.stockfood.com/largepreviews/NzUwMjM0MQ==/00242011-Soft-cheese-semi-hard-cheese-hard-cheese-Tyrol-grapes-nuts.jpg" alt="fresh-cheese-image">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cheese-type-card">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#main-bottom-hardcheeses-section">
+                                    <div class="cheese-info-card">
+                                        <h1>Hard cheeses</h1>
+                                        <div class="cheese-icon-container">
+                                            <img src="https://bluehill.coop/wp-content/uploads/2024/04/Parm-Reg-1024x1024.png" alt="fresh-cheese-icon">
+                                        </div>
+                                        <div class="cheese-image-container">
+                                            <img src="https://recipes.net/wp-content/uploads/2024/02/what-is-dry-cheese-1707734243.jpg" alt="fresh-cheese-image">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+<!--Secciones donde están las tarjetas con fotos de quesos e información de estos-->
+        <section id="main-bottom-freshcheeses-section" class="section">
+            <div class="cheese-type-section-info-container">
+                <div class="cheese-type-section-name">
+                    <h1>Fresh cheeses</h1>
+                    <div class="cheese-type-section-info">
+                        <h3>Fresh cheeses are the youngest type of cheese and hold the most moisture. This means they’re unaged, unripened, and rindless. These cheeses are also white on the outside as well as the inside. The texture can vary depending on how the paste is originally made, but the taste is most likely the same mild, and slightly acidic with only a hint of flavor. </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Cottage-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Cottage cheese</h1>
+                        <p>Cottage cheese is an American favorite made from cow’s milk. It is made by separating curds from the whey and is not pressed resulting in its lumpy creamy texture. It is extremely healthy with a 4 oz serving providing about 12 grams of protein and a variety of vitamins and minerals. It is, of course, great eaten right from the carton or with just about any fruit, but it is much more versatile than just that.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Feta-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Feta</h1>
+                        <p>Brined cheeses are soaked in saltwater to give them an acidic tangy flavor. Feta cheese is one such cheese. It originated in Greece and is traditionally made from sheep’s or goat’s milk though cow’s milk feta has also become available. Feta crumbles well and is great in crumbles atop a salad.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Mascarpone.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Mascarpone</h1>
+                        <p>Mascarpone is the Italian secret ingredient in tiramisu. It is very similar to American cream cheese only creamier as the fat content is much higher. Like cream cheese it is very versatile and can be flavored in a lot of ways. While you can find it in both sweet and savory recipes.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Mozzarella.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Mozzarella</h1>
+                        <p>Mozzarella is a pasta filata, or stretched curd cheese, made by soaking the curd in water until it is sufficiently elastic that the cheese can be kneaded and stretched to give it the chewy elastic texture we recognize as mozzarella. Mozzarella was invented in Italy in 1570, but is of course today made worldwide and is the #3 most produced cheese in the United States making up 9% of all production.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Ricotta-Cheese-Mound.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Ricotta</h1>
+                        <p>Ricotta is a soft-fresh Italian cheese that is eminently spreadable. This is the go to cheese for lasagna, crepes, galettes, and a host of other favorites. Ricotta is generally made of cow’s milk, but can also be found made from buffalo’s milk.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-bottom-softripenedcheeses-section" class="section">
+            <div class="cheese-type-section-info-container">
+                <div class="cheese-type-section-name">
+                    <h1>Soft-ripened cheeses</h1>
+                    <div class="cheese-type-section-info">
+                        <h3>These cheeses are ripened from anywhere between 1-30 days. They contain a high amount of moisture as well as fat content. Soft-ripened cheeses are best served at room temperature, and because of this, they tend to have a pudding-like texture and appearance. They all share the same type of buttery taste with a hint of sweetness.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Brie-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Brie cheese</h1>
+                        <p>Brie is soft and silky and comes in a round wheel with a light crust. It is generally eaten at room temperature with crackers or bread, and can almost be spread. It is great as a dessert by itself or in recipes like these Whipped Brie Stuffed Strawberries.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Camembert-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Camembert</h1>
+                        <p>It's a French cheese similar to brie, but known for a more intense flavor and not being as spreadable as brie. Like brie, however, it is still great on crackers and with jam. The cheese improves with age in both flavor and softness.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.cheese.com/media/img/cheese-suggestion/Chaource-AOC3_1280x800_1.webp" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Chaource</h1>
+                        <p>Chaource is a French cow's milk cheese that holds the prestigious Appellation d'Origine Contrôlée (AOC) status. The cheese is named after the Chaource village in the Champagne-Ardenne region, where it has been produced since the Middle Ages. It is a soft-ripened cow's milk cheese with a creamy interior and a white, velvety rind which is edible. As the cheese ages, the texture becomes runny towards the centre while the flavour develops more complexity.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.cheese.com/media/img/cheese/Goats_cheese.webp" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Chèvre</h1>
+                        <p>Chèvre refers to cheeses made with goat milk, each one with different shapes, sizes, and textures, offering unique flavors. They taste like a blend of rich and mellow flavors, combining buttery and earthy elements. It ranges from gamey and tangy to mild and creamy. As it ages it can develop a more complex flavor, a firmer and crumbly texture.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-bottom-semisoftcheeses-section" class="section">
+            <div class="cheese-type-section-info-container">
+                <div class="cheese-type-section-name">
+                    <h1>Semi-soft cheeses</h1>
+                    <div class="cheese-type-section-info">
+                        <h3>Semi-soft cheeses are denser, earthier, and can be more pungent. Since these cheeses are lightly pressed into molds, they have a rubbery layer on the outside, but still offer a soft, custardy center when cut into. Semi-soft cheeses often have a thick, buttery, and sweet taste with a rind that ranges from sticky and thin to leathery and coarse.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/American-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>American</h1>
+                        <p>American Cheese is the second most popular cheese by amount sold in the USA making, up 13% of sales. It is available at every deli counter and is pre-packaged for easy use by several major food producers. It is a great option for heated sandwiches and burgers as it is very creamy and melts well.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Havarti-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Havarti cheese</h1>
+                        <p>Havarti is a Danish semi-soft cheese made from pasteurized cow’s milk. It was introduced in Denmark in 1921 and given the Havarti name in 1952. Today the Danes produce about 17 thousand tons of Havarti a year. </p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Muenster-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Muenster cheese</h1>
+                        <p>Muenster is a brine treated cheese that is distinguishable by its orange rind which comes from the annatto seasoning used to flavor and color the cheese. Muenster is a mild buttery cheese that is very versatile. It is a good option for macaroni & cheese, cheeseburgers, quesadillas, and of course grilled cheese</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Provolone-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Provolone cheese</h1>
+                        <p>Provolone hails from Southern Italy. It is made from cow’s milk and known for its mild nutty flavor. The flavor changes with age, and it becomes sharper as it ages. Provolone is a yellow (often very light yellow) semi-hard cheese that is often smoked making it great on a grilled cheese sandwich or Philly cheesesteak. </p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.cheese.com/media/img/cheese-suggestion/Taleggio-DOP_1280x800.webp" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Taleggio</h1>
+                        <p>Taleggio is an Italian cheese with a unique flavor. It's one of the world's oldest soft cheeses, dating back to the 9th century in Bergamo, in the Val Taleggio region of northern Lombardy. The process uses acidic milk placed on wooden shelves in chambers and caves, washing it  once a week, and creating its pungent aroma. It has a rich, creamy texture with an intense and complex flavor. It  has an intense aroma, described as earthy and slightly tangy.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-bottom-semifirmcheeses-section" class="section">
+            <div class="cheese-type-section-info-container">
+                <div class="cheese-type-section-name">
+                    <h1>Semi-firm cheeses</h1>
+                    <div class="cheese-type-section-info">
+                        <h3>The longer a cheese ages, the more firm it’ll become. Semi-firm cheeses start to develop a wider range of flavors from floral, to fruity, and even sometimes buttery. These cheeses are firmer than soft cheeses, but still not quite firm enough to be categorized as hard cheese. This makes them perfect for slicing and shredding rather than grating or spreading.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Cheddar-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Cheddar</h1>
+                        <p>This cow milk cheese originated in England in the 12th century where it was sharp and crumbled easily, today it's commonly enjoyed atop of a meat patty for the perfect burger.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Edam.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Edam</h1>
+                        <p>Edam is a semi-hard cheese made from skim or part-skim milk. It is a sweet and nutty cheese, recognizable by its signature red wax seal.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Emmental.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Emmental</h1>
+                        <p>This is a very old Swiss cheese from Bern Switzerland that dates back to the 13th Century. It is a lite yellow cheese with a mild yet savory taste. The curds are cooked before being pressed, and this process forms the bubbles that give emmental its distinct “Swiss cheese” holes.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Gouda.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Gouda</h1>
+                        <p>Gouda is one of the most popular cheeses in the Netherlands, named after the city of Gouda, where it is traditionally bought and sold. This is a semi-hard cheese made with cow’s milk and patiently aged. Gouda is mild and creamy when young and becomes increasingly sharp with age. Gouda is aged anywhere from a few weeks to 7 years depending upon the characteristics desired. The Dutch have had a lot of time to perfect this cheese as written records first mention it in the 12th Century.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Gruyere.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Gruyere</h1>
+                        <p>Gruyere is a Swiss cheese variety named after the Swiss town of Gruyere. It is a firm cheese made from cow’s milk that goes well on any cheese board. It is also routinely used in fondue and French onion soup.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-bottom-hardcheeses-section" class="section">
+            <div class="cheese-type-section-info-container">
+                <div class="cheese-type-section-name">
+                    <h1>Hard cheeses</h1>
+                    <div class="cheese-type-section-info">
+                        <h3>Hard cheeses are the types that have been aged the most. These are dry-textured cheeses full of deep, potent, and savory flavors. Since they have the lowest amount of moisture, they can even be categorized as crunchy. Hard cheeses are rich in taste which means that a little goes a long way, which makes them best grated or sliced very thinly.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Asiago-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Asiago</h1>
+                        <p>Asiago is an Italian cheese made from cow’s milk. Asiago is sold either aged or immature. Aging can take up to 9 months, and results in a much harder cheese with strong pungent flavor and yellow color. Immature asiago will be off-white with a smoother texture and mild taste.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Grana-Padano.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Grana Padano</h1>
+                        <p>Grana Padano is a popular Italian hard cheese made from skimmed cow’s milk and aged at least a year. You can use it in any recipe you would use parmesan.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Manchego-Cheese.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Manchego</h1>
+                        <p>Manchego is a hard Spanish cheese made from sheep’s milk. This is a well aged cheese that is good in any potato gratin recipe.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Parmesan.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Parmesan</h1>
+                        <p>Parmesan is a hard Italian cheese developed in the 12th or 13th Century. It is normally grated and known for its strong aroma and sweet taste. Its most common American use is sprinkled over pasta, but it is much more versatile than just that. </p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+                <div class="card">
+                    <div class="card-questionmark-icon">
+                        <a href="https://www.skh.com/thedish/guide-types-cheese/" target="_blank"><img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/common-actions/question-mark-sqok8vg2o1dd9g07du59d.png/question-mark-fh239k9aqe5ayqfowratid.png?_a=DAJFJtWIZAAC" alt="question-icon"></a>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="https://www.liveeatlearn.com/wp-content/uploads/2022/12/Pecorino-Romano.jpg" alt="Cheese-Image">
+                    </div>
+                    <div class="card-info">
+                        <h1>Pecorino Romano</h1>
+                        <p>This South Italian cheese is a sharp, salty, sheep milk’s cheese often used grated. Pecorino means “sheep” in Italian, so there is no cheating with the production process of Pecorino Romano. It is believed to be an ancient cheese eaten by the Roman army. It is mostly produced on the Island of Sardinia today, and in the same way it was made centuries ago.</p>
+                    </div>
+                    <button>Show more</button>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <div class="footer-logo-container">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-cheese-icon-download-in-svg-png-gif-file-formats--piece-milk-product-dairy-foods-pack-food-drink-icons-1534540.png?f=webp&w=256" alt="cheese-logo">
+        </div>
+        <ul class="links-container">
+            <li>Help</li>
+            <li>About us</li>
+            <li>Terms & conditions</li>
+            <li>Privacy</li>
+        </ul>
+        <ul class="logos-container">
+            <a href="https://www.linkedin.com/in/adame-marin-pedro-alberto-69ab16310/" target="_blank"><li><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="linkedin-logo"></li></a>
+            <a href="https://github.com/Paam-8" target="_blank"><li><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo"></li></a>
+        </ul>
+    </footer>
+</body>
+</html>
